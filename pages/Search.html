@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section id="nav" class="text-white p-2 position-fixed  ">
+        <div id="uls" class="position-absolute bg-black ">
+
+            <ul>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white " href="./Search.html">Search</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="../index.html">Categories</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="./Area.html">Area</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="">Ingredients</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="./Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div id="links_copyright" class="position-absolute ">
+
+            <div class="Links">
+                <i class="fa fab fa-facebook"></i>
+                <i class="fa fab fab fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <p>Copyright Â© 2019 All Rights
+                        Reserved.</p>
+        </div>
+    </section>
+    <div class=" yummy position-fixed position-relative text-center bg-white text-black ">
+        <img src="../logo.png" class="w-100" alt="">
+        <div class="close fs-1 ">
+            <i class="fa-solid fa-xmark  "></i>
+        </div>
+        <div class="bar fs-1   ">
+            <i class="fa-solid fa-bars  "></i>
+        </div>
+
+        <div id="globe_share">
+            <i class="fa-solid fa-globe mb-2 "></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center vh-100 d-none " id="load">
+
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>
+
+    <div class="container  text-white py-5    ">
+        <div class="row">
+
+            <div class="col">
+                <input type="text" placeholder="seearch by name" class="form-control" id="searchInput">
+            </div>
+            <div class="col">
+                <input type="text" placeholder="seearch by first letter" class="form-control" id="searchFirstLetter">
+            </div>
+        </div>
+        <div class="row " id="mySearch">
+        </div>
+        <div class="row  d-none" id="myFirstLetter">
+        </div>
+    </div>
+
+
+   
+    <div id="Light_Box" class="d-none justify-content-center align-items-center fixed-top top-0    ">
+        <div class="main_box  ">
+            <div class="container   text-white" >
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="text">
+                    <h1>Instructions</h1>
+                </div>
+                <div class="closing">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="container ">
+    
+              <div class="row  " id="searchedMeal">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    <div id="Light_Box_FirstLetter" class="d-none justify-content-center align-items-center fixed-top top-0     ">
+        <div class="main_box  ">
+            <div class="container   text-white" >
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="text">
+                    <h1>Instructions</h1>
+                </div>
+                <div class="closing">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="container  ">
+    
+              <div class="row  " id="searchedLetter">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+         
+
+
+
+
+
+
+
+
+
+    <script src="../Java/jquery-3.7.1.min.js"></script>
+    <script src="../Java/index.js"></script>
+</body>
+</html>

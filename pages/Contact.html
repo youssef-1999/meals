@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section id="nav" class="text-white p-2 position-fixed  ">
+        <div id="uls" class="position-absolute bg-black ">
+
+            <ul>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white " href="">Search</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="../index.html">Categories</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="./Area.html">Area</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="">Ingredients</a></li>
+                <li class="list-unstyled mb-2 "><a class="text-decoration-none text-white  " href="./Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div id="links_copyright" class="position-absolute ">
+
+            <div class="Links">
+                <i class="fa fab fa-facebook"></i>
+                <i class="fa fab fab fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <p>Copyright Â© 2019 All Rights
+                        Reserved.</p>
+        </div>
+    </section>
+    <div class=" yummy position-fixed position-relative text-center bg-white text-black ">
+        <img src="../logo.png" class="w-100" alt="">
+        <div class="close fs-1 ">
+            <i class="fa-solid fa-xmark  "></i>
+        </div>
+        <div class="bar fs-1   ">
+            <i class="fa-solid fa-bars  "></i>
+        </div>
+
+        <div id="globe_share">
+            <i class="fa-solid fa-globe mb-2 "></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+
+
+   
+
+    <div class="container  text-white py-5  " id="area">
+        <div class="d-flex justify-content-center align-items-center vh-100 flex-column  ">
+          <div class="row mb-3  ">
+  
+              <div class="col ">
+               <input type="text" placeholder="Enter Your Name" class="form-control" oninput="checkName()" id="userName">
+               <div class="alert alert-danger d-none " id="errorName">letters & symbols are not allowed</div>
+              </div>
+              <div class="col">
+               <input type="email" placeholder="Enter Your Email" class="form-control" oninput="checkEmail()" id="userEmail">
+               <div class="alert alert-danger d-none" id="errorEmail">not allowed example@xyz.xyz</div>
+  
+              </div>
+           
+          </div>
+          <div class="row mb-3">
+              <div class="col">
+                  <input type="tel" placeholder="Enter Your Number" class="form-control " oninput="checkPhone()" id="phoneNumber">
+               <div class="alert alert-danger d-none" id="errorPhone">only 11 numbers allowed</div>
+  
+                 </div>
+                 <div class="col">
+                  <input type="number" placeholder="Enter Your Age" class="form-control" oninput="checkAge()" id="Age">
+               <div class="alert alert-danger d-none" id="errorAge">enter a valid age</div>
+  
+                 </div>
+          </div>
+          <div class="row mb-3">
+              <div class="col">
+                  <input type="password" placeholder="Enter Your password" class="form-control" oninput="checkPassword()" id="password">
+               <div class="alert alert-danger d-none" id="errorPassword">enter a valid password "minimum eight characters ,at least one letter capital and one number"</div>
+
+                 </div>
+                 <div class="col">
+                  <input type="password" placeholder="Enter Your password" class="form-control " oninput="checkRePassword()" id="repassword">
+                  <div class="alert alert-danger d-none" id="errorRePassword">enter the valid repassword</div>
+
+                 </div>
+          </div>
+          <div class="button">
+              <button class="btn btn-outline-danger " id="submitBtn">Submit</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    <script src="../Java/jquery-3.7.1.min.js"></script>
+    <script src="../Java/index.js"></script>
+</body>
+</html>
